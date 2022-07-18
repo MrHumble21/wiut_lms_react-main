@@ -1,0 +1,22 @@
+.accordion-item {
+    background-color: #E8EDF3 !important;
+    
+}
+
+
+.accordion-button{
+    background-color: #AFD5FF;
+    color: #635666 !important;
+    font-weight: bolder;
+}
+
+/* #635666 */
+
+#panelsStayOpen-headingOne > button{
+    border-radius: 25px 25px 0 0;
+}
+
+#accordionPanelsStayOpenExample > div:nth-child(1){
+    border-radius: 25px 25px 0 0 !important;
+    
+}
