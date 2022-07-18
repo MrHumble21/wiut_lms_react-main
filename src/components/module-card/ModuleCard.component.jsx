@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import "./ModuleCard.styles.scss";
 
 const ModuleCard = (props) => {
   return (
+   <Link className='text-decoration-none ' style={{color:'#444'}} to={props.module_name}>
     <div className="module-container">
       <h3 className="module-title">{props.module_name}</h3>
       <p className="module-code">{props.module_code}</p>
@@ -19,6 +21,7 @@ const ModuleCard = (props) => {
         </div>
       </div>
     </div>
+   </Link>
   );
 };
 
