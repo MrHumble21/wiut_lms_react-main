@@ -1,0 +1,16 @@
+
+.deadline-item-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.deadline-item-title {
+    font-weight: 600;
+}

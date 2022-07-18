@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+// ****
+.mymodules-container {
+    padding: 2rem;
+}
+
+.mymodules-title {
+    top: calc(50% - 32px/2 - 33.5px);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.mymodules-question {
+    top: calc(50% - 60px/2 + 22.5px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+
+.modules-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: minmax(200px);
+    grid-gap: 1.5rem;
+}
